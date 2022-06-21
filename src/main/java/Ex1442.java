@@ -13,7 +13,9 @@ public class Ex1442 {
         for (int i = 0; i < n; i++) {
             min = i;
             for (int j = i+1; j < n; j++) {
+
                 if (a[j] < a[min] ){
+                    System.out.println("i:"+i+" min:"+min+" j :"+j);
                     min = j;
                 }
             }
